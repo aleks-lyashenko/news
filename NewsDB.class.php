@@ -2,12 +2,12 @@
 require "INewsDB.class.php";
 class NewsDB implements INewsDB
 {
-  const DB_NAME = '../news.db';
+  const DB_NAME = 'news.db';
   const ERR_PROPERTY = "Wrong property name";
   private $_db;
   function __construct()
   {
-    $this->_db = new SQLite3(self::DB_NAME);
+    $this->_db = new PDO('sqlite:' . self::DB_NAME);
     // Проверка пустой ли файл
     if (!filesize(self::DB_NAME)) {
       try {
@@ -61,7 +61,7 @@ class NewsDB implements INewsDB
   function saveNews($title, $category, $description, $source)
   {
     $dt = time();
-    $sql = "INSERT INTO msgs(title, category, description, source, datetime) VALUES('$title', $category, '$description', '$source', $dt)";
+    $sql = "INSERT INTO msgs(title, category, description, source, datetime) VALUES($title, $category, $description, $source, $dt)";
     return $this->_db->exec($sql);
   }
 
@@ -69,7 +69,7 @@ class NewsDB implements INewsDB
   function db2Arr($data)
   {
     $arr = [];
-    while ($row = $data->fetchArray(SQLITE3_ASSOC)) {
+    while ($row = $data->fetch(PDO::FETCH_ASSOC)) {
       $arr[] = $row;
     }
     return $arr;
@@ -92,6 +92,6 @@ class NewsDB implements INewsDB
   }
   function escape($data)
   {
-    return $this->_db->escapeString(trim(strip_tags($data)));
+    return $this->_db->quote(trim(strip_tags($data)));
   }
 }
