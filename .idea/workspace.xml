@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b601eab2-b690-47b6-a12d-d5670dbdbecf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/news.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsDB.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/NewsDB.class.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,9 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -47,6 +43,11 @@
     <select />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1wcGFXZPkys7lvQa5JgQ1wclMJG" />
@@ -55,7 +56,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -65,6 +65,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="___news___" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -73,6 +74,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.___news___" />
         <item itemvalue="PHPUnit.___news___" />
       </list>
     </recent_temporary>
@@ -94,6 +96,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -105,31 +108,27 @@
       <option name="presentableId" value="Default" />
       <updated>1628750359100</updated>
       <workItem from="1628750360287" duration="3101000" />
+      <workItem from="1629017118005" duration="46000" />
+      <workItem from="1629017190144" duration="249000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="452" y="116" key="#HTTP_Proxy" timestamp="1628754118742">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="452" y="116" key="#HTTP_Proxy/0.0.1920.1040@0.0.1920.1040" timestamp="1628754118742" />
-    <state x="115" y="84" width="744" height="871" key="#___news___" timestamp="1628752379391">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="115" y="84" width="744" height="871" key="#___news___/0.0.1920.1040@0.0.1920.1040" timestamp="1628752379391" />
-    <state x="552" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628754153149">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1628754153149" />
-    <state width="236" height="549" key="HiddenNamespacesPopup" timestamp="1628754169205">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="236" height="549" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1628754169205" />
   </component>
 </project>
