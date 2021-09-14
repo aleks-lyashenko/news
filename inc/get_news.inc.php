@@ -12,11 +12,18 @@ if ($items === false) {
     <h3>{$item['title']}</h3>
     <p>
       $desc<br>
-      {$item['category']}<br>
       @ $dt
     </p>
+    <span class="badge bg-primary">{$item['category']}</span>
+    <br>
+    <br>
+    <p class="blockquote-footer">Источник:
+      {$item['source']}
+    </p>
     <p align="right">
-      <a href='news.php?del={$item['id']}'>Удалить</a>
+      <a href='news.php?del={$item['id']}'>
+      Удалить
+      </a>
     </p>
 ITEM;
   }

@@ -32,7 +32,7 @@ class NewsDB implements INewsDB
         }
 
         $sql = "INSERT INTO category(id, name)
-      SELECT 1 as id, 'Политика' as name UNION SELECT 2 as id, 'Культура' as name UNION SELECT 3 as id, 'Спорт' as name";
+      SELECT 1 as id, 'Работа' as name UNION SELECT 2 as id, 'Культура' as name UNION SELECT 3 as id, 'Спорт' as name";
         if (!$this->_db->exec($sql)) {
           throw new Exception("Category Error");
         }
