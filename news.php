@@ -43,7 +43,7 @@ if (isset($_GET['del'])) {
             <br>
 
     <div class="addNewTask">
-        <button class="btn btn-danger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+        <button class="btn btn-danger mb-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
                 aria-controls="offcanvasRight">Добавить новую задачу</button>
 
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">

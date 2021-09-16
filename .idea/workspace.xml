@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b601eab2-b690-47b6-a12d-d5670dbdbecf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/inc/add_news.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/header.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_08_2021_11_35_[Default_Changelist]1/news.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_08_2021_11_35_[Default_Changelist]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_08_2021_11_35__Default_Changelist_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsDB.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/NewsDB.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delete_news.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/delete_news.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_news.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/get_news.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news.db" beforeDir="false" afterPath="$PROJECT_DIR$/news.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/news.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_news.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/save_news.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Laravel.ru/example-app/public" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -95,7 +86,9 @@
       <updated>1628750359100</updated>
       <workItem from="1628750360287" duration="1356000" />
       <workItem from="1629125678840" duration="706000" />
-      <workItem from="1631617317037" duration="10881000" />
+      <workItem from="1631617317037" duration="11346000" />
+      <workItem from="1631635906506" duration="745000" />
+      <workItem from="1631809293551" duration="77000" />
     </task>
     <servers />
   </component>
